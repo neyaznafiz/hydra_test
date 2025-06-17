@@ -1,0 +1,28 @@
+.{
+    .name = .hydra,
+    .version = "0.5.0",
+    .fingerprint = 0x11350dc1fb14198a,
+    .minimum_zig_version = "0.15.0-dev.441+c1649d586",
+    .dependencies = .{
+        .saturn = .{
+            .url = "https://github.com/bitlaab-blitz/saturn/archive/refs/heads/main.zip",
+            .hash = "saturn-0.5.0-7e53W_8EAQCICYoGD2itWJR9xRKf52b6a9S1-8ckMlmb",
+        },
+        .cfp = .{
+            .url = "https://github.com/bitlaab-bolt/cfp/archive/refs/heads/main.zip",
+            .hash = "cfp-0.5.0-5z_kIZiJ4QBZxKL0nkuYKb54gxejh0bVAk8ibFCEUAKF",
+        },
+        .stencil = .{
+            .url = "https://github.com/bitlaab-bolt/stencil/archive/refs/heads/main.zip",
+            .hash = "stencil-0.5.0-2BNdgjp84QBf8LIizPyoq_lJzUlhpEJvRYsjLUWid4EW",
+        },
+    },
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+        "CHANGELOG.md",
+        "LICENSE",
+        "README.md",
+    },
+}

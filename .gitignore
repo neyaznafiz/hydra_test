@@ -1,0 +1,8 @@
+.DS_Store
+**/.DS_Store
+.zig-cache/
+zig-out/
+site/
+
+frontend/page/.tmp
+hydra.log
