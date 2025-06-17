@@ -1,20 +1,20 @@
 .{
-    .name = .hydra,
+    .name = .hydra_test,
     .version = "0.5.0",
-    .fingerprint = 0x11350dc1fb14198a,
+    .fingerprint = 0xd23c13ca513b06c4,
     .minimum_zig_version = "0.15.0-dev.441+c1649d586",
     .dependencies = .{
         .saturn = .{
             .url = "https://github.com/bitlaab-blitz/saturn/archive/refs/heads/main.zip",
-            .hash = "saturn-0.5.0-7e53W_8EAQCICYoGD2itWJR9xRKf52b6a9S1-8ckMlmb",
+            .hash = "saturn-0.5.0-7e53WwEFAQDevYSvxnHjVypAM50Z1i1849JuRFdtDiDX",
         },
         .cfp = .{
             .url = "https://github.com/bitlaab-bolt/cfp/archive/refs/heads/main.zip",
-            .hash = "cfp-0.5.0-5z_kIZiJ4QBZxKL0nkuYKb54gxejh0bVAk8ibFCEUAKF",
+            .hash = "cfp-0.5.0-5z_kIa6M4QCYNbcpv5PgUwsdm4v2RcgksC5bwjoiUI4d",
         },
         .stencil = .{
             .url = "https://github.com/bitlaab-bolt/stencil/archive/refs/heads/main.zip",
-            .hash = "stencil-0.5.0-2BNdgjp84QBf8LIizPyoq_lJzUlhpEJvRYsjLUWid4EW",
+            .hash = "stencil-0.5.0-2BNdgjd94QBTZ2RXW4Z-1kX6gkV3M70FpruvC0us3MFt",
         },
     },
     .paths = .{
