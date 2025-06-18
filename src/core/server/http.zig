@@ -135,6 +135,9 @@ const Peer = struct {
                 .buff = [_]u8 {0} ** buff_sz
             };
 
+            // Default is undefined, therefore offset could have garbage value.
+            req_data.headers.offset = 0;
+
             // Dispatching task to worker via executor
             Executor.submit(handleW, @as(?*anyopaque, req_data)) catch |err| {
                 utils.unrecoverable(err, @src());

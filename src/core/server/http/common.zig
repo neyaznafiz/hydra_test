@@ -375,7 +375,7 @@ pub const Headers = struct {
     /// # Http Header of a `name` and `value` Pair
     pub const Property = meta.Tuple(&.{[]const u8, []const u8});
 
-    offset: usize = 0,
+    offset: usize,
     name: [24]Str,
     value: [24]HeaderValue,
     // ↑ Predefined list of headers, where:

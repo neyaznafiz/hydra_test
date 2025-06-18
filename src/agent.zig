@@ -31,6 +31,10 @@ pub const generic = route.lane(.WebPage, "/")
             .GET, "home",
             apply(&@import("./builtins/webpage.zig").serve)
         },
+        .{
+            .GET, "en/home",
+            apply(&@import("./builtins/webpage.zig").serve)
+        },
     });
 
 /// # Serves App Data

@@ -6,7 +6,7 @@
     .dependencies = .{
         .saturn = .{
             .url = "https://github.com/bitlaab-blitz/saturn/archive/refs/heads/main.zip",
-            .hash = "saturn-0.5.0-7e53WwEFAQDevYSvxnHjVypAM50Z1i1849JuRFdtDiDX",
+            .hash = "saturn-0.5.0-7e53WxUFAQB4M-0p5ok-THRsJMxOAnvLz5qw6xdqTQIb",
         },
         .cfp = .{
             .url = "https://github.com/bitlaab-bolt/cfp/archive/refs/heads/main.zip",
